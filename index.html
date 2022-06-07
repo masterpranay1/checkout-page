@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Page</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <h1>Checkout</h1>
+  <main>
+    <form>
+      <section class="form__contact-information">
+        <h2>Contact Information</h2>
+
+        <div class="form__input-wrapper">
+          <label for="email">Email</label>
+          <div class="input-plus-icon">
+            <img src="./image/mail.svg" alt="mail-icon">
+            <input type="email" placeholder="Enter your email..." required>
+          </div>
+          <p class="message">Error or Success Message here</p>
+        </div>
+        
+        <div class="form__input-wrapper">
+          <label for="phone">Phone</label>
+          <div class="input-plus-icon">
+            <img src="./image/phone.svg" alt="phone-icon">
+            <input type="phone" placeholder="Enter your phone..." required>
+          </div>
+          <p class="message">Error or Success Message here</p>
+        </div>
+
+      </section>
+      <section class="form__shipping-address">
+        <h2>Shipping Information</h2>
+        <div class="form__input-wrapper">
+          <label for="name">Full name</label>
+          <div class="input-plus-icon">
+            <img src="./image/name.svg" alt="name-icon">
+            <input type="text" placeholder="Enter your name..." value="Rodney Cotton" required>
+          </div>
+          <p class="message">Error or Success Message here</p>
+        </div>
+
+        <div class="form__input-wrapper">
+          <label for="address">Address</label>
+          <div class="input-plus-icon">
+            <img src="./image/address.svg" alt="address-icon">
+            <input type="text" placeholder="Enter your address..." required>
+          </div>
+          <p class="message">Error or Success Message here</p>
+        </div>
+
+        <div class="form__input-wrapper">
+          <label for="city">City</label>
+          <div class="input-plus-icon">
+            <img src="./image/city.svg" alt="City-icon">
+            <input type="text" placeholder="Enter your city..." required>
+          </div>
+          <p class="message">Error or Success Message here</p>
+        </div>
+
+        <div class="wrapper">
+          <div class="form__input-wrapper form__country">
+            <label for="country">Country</label>
+            <div class="input-plus-icon">
+              <img src="./image/country.svg" alt="country-icon">
+              <select name="country" class="country_input">
+                <option value="india">INDIA</option>
+                <option value="China">China</option>
+                <option value="USA">USA</option>
+              </select>
+            </div>
+            <p class="message">Error or Success Message here</p>
+          </div>
+          
+          <div class="form__input-wrapper form__postal">
+            <label for="post">Postal</label>
+            <div class="input-plus-icon">
+              <img src="./image/postal.svg" alt="post-icon">
+              <input type="text" placeholder="Enter your postal..." required>
+            </div>
+            <p class="message">Error or Success Message here</p>
+          </div>
+        </div>
+
+      </section>
+      <div class="form_save-option">
+        <input type="checkbox" name="checkbox">
+        Save this information for next time
+      </div>
+      <button type="submit">Continue</button>
+    </form>
+  
+    <div class="item-cart-wrapper">
+      <section class="item-cart">
+        <div class="item-container">
+          <img src="./image/photo1.png" alt="item-image">
+          <div class="item-info">
+            <strong>Vintage Backbag</strong>
+            <small><span>$54.99</span>$94.99</small>
+            <div class="counter">
+              <span class="plus">+</span>
+              <span>1</span>
+              <span class="minus">-</span>
+            </div>
+          </div>
+        </div>
+        <div class="item-container">
+          <img src="./image/photo1.png" alt="item-image">
+          <div class="item-info">
+            <strong>Vintage Backbag</strong>
+            <small><span>$54.99</span>$94.99</small>
+            <div class="counter">
+              <span class="plus">+</span>
+              <span>1</span>
+              <span class="minus">-</span>
+            </div>
+          </div>
+        </div>
+        <div class="shipping-charge">
+          <span>Shipping</span>
+          <span>$19</span>
+        </div>
+        <div class="total-charge">
+          <span>Total</span>
+          <span>$148.98</span>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
