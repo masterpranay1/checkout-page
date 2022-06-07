@@ -18,9 +18,11 @@ Live Link : [Click Here](https://masterpranay1.github.io/checkout-page)
 
 ## Screenshots
 - Desktop
+
 ![Desktop](./screenshots/desktop.png)
 
 - Mobile
+
 ![Mobile](./screenshots/mobile.png)
 
 ## Author
